@@ -1,5 +1,5 @@
 ---
-Logo: image/C.R_Clothes.png
+Logo: assets/img/C.R_Clothes.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.

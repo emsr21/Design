@@ -7,6 +7,7 @@ Om mig
 ==========================
 
 ![Jag på studenten](assets/img/minStudent.jpeg "min student")
+
 sjo jag heter Emil och har precis börjat på BTH som webbprogramerare och detta är en simpel presentation på mig
 
 Mitt namn är som sagt Emil Svedrin. Jag föddes 2002 i kalmar och har bott på Öland en stor del av mitt liv. När jag skulle börja 5:an så bestämde sig mina föräldrar att till Spanien där min mamma fick ett jobb på en skandinavisk skola där jag gick 5:an och 6:an. Det var i spanien jag fick intresse i matte vilket drog mitt intresse till programmering. Jag kommer in till denna kursen direct från LarsKaggs teknik program med programerings inriktning.

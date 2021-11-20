@@ -6465,6 +6465,7 @@ code {
   border: 1px solid #ccc;
   border-radius: 0.3em;
   background: #f5f5f5;
+  color: black;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6503,7 +6504,7 @@ pre code {
 }
 
 .nav {
-  width: 40%;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -6523,12 +6524,17 @@ pre code {
   text-align: center;
   font-size: 1.5em;
   border: 1px solid black;
-  background-color: #838383;
+  background-color: #555555;
 }
 .nav a {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 1000px) {
+  .nav {
+    width: 80%;
+  }
+}
 @media only screen and (max-width: 600px) {
   .nav {
     width: 100%;
@@ -6575,7 +6581,7 @@ pre code {
   margin-left: 10%;
   margin-bottom: 0;
   margin-top: 2em;
-  background-color: #838383;
+  background-color: #555555;
   float: left;
   padding: 1em;
 }
@@ -6590,6 +6596,68 @@ pre code {
   float: right;
 }
 
+.container {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.container h1 {
+  justify-self: center;
+  grid-column: span 3;
+}
+
+.technology-main {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1em;
+  display: flex;
+  gap: 1em 1em;
+}
+.technology-main h1 {
+  margin: 0;
+}
+.technology-main h2 {
+  margin: 0;
+}
+
+.technology {
+  height: 3cm;
+  background-color: #555555;
+  border-radius: 1em;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+.sidebar {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #555555;
+}
+.sidebar li {
+  margin-bottom: 0.7em;
+}
+
+.article {
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #102135;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container h1 {
+    grid-column: span 2;
+  }
+
+  .technology-main {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container h1 {
+    grid-column: span 1;
+  }
+}
 h1 {
   font-family: "Open Sans", sans-serif;
 }

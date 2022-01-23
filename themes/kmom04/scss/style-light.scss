@@ -1,0 +1,30 @@
+
+.footer {
+    background-color: $background-alternative-color-light;
+}
+
+.nav {
+    li {
+        background-color: $background-alternative-color-light;
+    }
+}
+
+.technology {
+    background-color: $background-alternative-color-light;
+}
+
+/* .galleryimage {
+    background-color: $background-alternative-color-light;
+} */
+
+.article {
+    border-radius: 0;
+    border-left: 2px solid $font-alternative-color;
+    background-color: $background-color-light;
+    width: 100%;
+}
+
+.sidebar {
+    border-radius: 0;
+    background-color: $background-color-light;
+}

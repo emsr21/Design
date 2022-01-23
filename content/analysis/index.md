@@ -1,8 +1,8 @@
 ---
-Title: Tech
+Title: Analyzes
 Description: This is my report page.
-Template: technologies
+Template: analyzes
 ---
 
-technologies
+Analyzes
 ==========================
